@@ -1,0 +1,261 @@
+body { 
+    margin: 0;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    padding-top: 10px; 
+}
+
+.carousel-inner {
+  padding-top: 20px; 
+}
+
+.title {
+  font-family: 'Baloo 2', cursive, bold; 
+  font-size: 24px; 
+    padding-bottom: 15px; 
+    padding-left: 26px; 
+   
+}
+
+.grid-container {
+
+  display: grid;
+  grid-template-columns: 20px 200px auto 80px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+.item2 {
+    font-size: 17px; 
+    font-weight: 500; 
+}
+
+.item4 {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600; 
+}
+
+.item8 {
+    font-size: 16px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #7697cb; 
+}
+
+
+.personalization {
+    padding-left: 20px; 
+    padding-bottom: 40px; 
+    font-family: 'Quicksand', sans-serif;
+    width: 90%; 
+}
+
+
+.row {
+    padding-bottom: 40px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    
+}
+
+.col {
+    padding-bottom: 20px; 
+}
+
+.product {
+  width: 90%; 
+  padding-top: 5px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productname {
+    margin: 0; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px; 
+    padding: 5px 0px 0 10px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space:nowrap; 
+    width: 150px;  
+}
+
+
+.price {
+    margin: 0; 
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500; 
+    font-size: 16px; 
+    padding: 0px 0px 0 10px; 
+}
+
+.first {
+    background-color: #80aaaa;
+}
+
+.productfirst {
+    background-color: #f7e184;
+}
+
+.firstunder {
+    background-color: white; 
+    padding-top: 20px; 
+    padding-bottom: 60px; 
+    border-radius: 0 0 50px 50px;
+}
+
+.second { 
+    background-color: #80aaaa;
+    color: white; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+}
+
+.productsecond { 
+    background-color: #f7e184;
+    color: white; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    color: #2b2a28; 
+}
+
+.w3-bar { 
+    font-size: 17px;
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+    letter-spacing: 6px;
+}
+
+.navbar {
+    position: fixed;
+  overflow: hidden;
+  background-color: #f7e184; 
+  bottom: 0;
+  width: 100%;
+}
+
+.secondnavbar {
+    background-color: #80aaaa;
+}
+
+.details {
+    padding-top: 30px; 
+    padding-left: 20px; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.detailtitle {
+    font-size: 18px; 
+    font-weight: 600; 
+    padding-top: 20px; 
+}
+
+.explanation {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 95%; 
+}
+
+ul li{
+    list-style: none; 
+}
+
+ul.explanation {
+    list-style-type: circle;
+}
+
+.explanation li { 
+}
+
+
+.quantity {
+    padding-left: 20px; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.addbutton { 
+    background-color: #f7e184;
+    border: none;
+      color: black; 
+      padding: 5px 20px;
+      text-align: center;
+      font-weight: 400; 
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    border-radius: 20px; 
+}
+
+.cartbutton { 
+    background-color: #80aaaa; 
+    border: none;
+      color: white; 
+      padding: 15px 110px;
+      text-align: center;
+      font-weight: 600; 
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+     font-family: 'Quicksand', sans-serif;
+    border-radius: 30px; 
+}
+
+.text-center {
+  text-align: center;
+    padding-top: 40px; 
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+* {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
